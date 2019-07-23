@@ -1,0 +1,292 @@
+#main-container {
+  background-color: rgb(251, 240, 239);
+  width: 950px;
+  height: 720px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 142.5px auto 142.5px;
+}
+
+#top-left-triangle {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 0;
+  height: 0;
+  border-bottom: 142.5px solid transparent;
+  border-left: 142.5px solid rgb(170, 47, 62);
+}
+
+#top-right-triangle {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  width: 0;
+  height: 0;
+  border-bottom: 142.5px solid transparent;
+  border-right: 142.5px solid rgb(170, 47, 62);
+}
+
+#bottom-left-triangle {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  width: 0;
+  height: 0;
+  border-top: 142.5px solid transparent;
+  border-left: 142.5px solid rgb(170, 47, 62);
+}
+
+#bottom-right-triangle {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  width: 0;
+  height: 0;
+  border-top: 142.5px solid transparent;
+  border-right: 142.5px solid rgb(170, 47, 62);
+}
+
+#credential-level-box {
+  position: absolute;
+  width: 105px;
+  height: 80px;
+  border: 1px solid rgb(170, 47, 62);
+  top: 62.5px;
+  right: 85px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#id-number-box {
+  position: absolute;
+  width: 180px;
+  height: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  top: 90px;
+  left: 55px;
+}
+
+#credential-verification-certificate-box {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  font-family: 'GlacialIndifferenceBold';
+  font-size: 40px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  top: 15px;
+  left: 20%;
+  right: 20%;
+  line-height: 35px;
+}
+
+#this-is-granted-to-box {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  font-family: 'GlacialIndifferenceRegular';
+  font-size: 24px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  left: 40%;
+  right: 40%;
+  bottom: 585px;
+}
+
+#certificate-holder-box {
+  position: absolute;
+  width: 62%;
+  height: auto;
+  font-family: 'GlacialIndifferenceBold';
+  font-size: 70px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  left: 19%;
+  right: 19%;
+  top: 135px;
+}
+
+#as-confirmation-box {
+  position: absolute;
+  width: 72%;
+  height: auto;
+  font-family: 'GlacialIndifferenceRegular';
+  font-size: 24px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  left: 14%;
+  right: 14%;
+  top: 225px;
+}
+
+#other-suitability-box {
+  position: absolute;
+  width: 58%;
+  height: auto;
+  font-family: 'GlacialIndifferenceRegular';
+  font-size: 18px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  left: 21%;
+  right: 21%;
+  top: 295px;
+}
+
+#verified-education-box {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  left: 4%;
+  top: 345px;
+}
+
+#qualified-for-employment-box {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  right: 0;
+  top: 345px;
+}
+
+#verified-education-content-box {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  left: 6%;
+  top: 375px;
+}
+
+#qualified-for-employment-content-box {
+  position: absolute;
+  width: 43%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  right: 0;
+  top: 375px;
+}
+
+#professional-experience-box {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  left: 4%;
+  top: 510px;
+}
+
+#professional-experience-content-box {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  left: 6%;
+  top: 537px;
+}
+
+#cda-only-box {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  right: 0;
+  top: 450px;
+}
+
+#cda-only-content-box {
+  position: absolute;
+  width: 43%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  right: 0;
+  top: 480px;
+}
+
+#michael-rowe-box {
+  position: absolute;
+  width: 32%;
+  height: auto;
+  font-family: 'GlacialIndifferenceBold';
+  font-size: 19px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  letter-spacing: 3px;
+  left: 90px;
+  bottom: 35px;
+  border-top: 5px solid rgb(209, 63, 81);
+  padding-top: 5px;
+}
+
+#program-manager-box {
+  position: absolute;
+  width: 32%;
+  height: auto;
+  font-family: 'GlacialIndifferenceRegular';
+  font-size: 19px;
+  text-align: center;
+  color: rgb(209, 63, 81);
+  left: 90px;
+  bottom: 15px;
+}
+
+#issued-on-box {
+  position: absolute;
+  width: 35%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  right: 0;
+  bottom: 100px;
+}
+
+#issued-on-content-box {
+  position: absolute;
+  width: 33%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  right: 0;
+  bottom: 73px;
+}
+
+#osse-logo-box {
+  position: absolute;
+  width: 10%;
+  height: 95px;
+  left: 45%;
+  right: 45%;
+  bottom: 10px;
+  background-image: url("osse-logo.png");
+  background-size: cover;
+  background-position: center;
+}
